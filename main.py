@@ -652,11 +652,6 @@ class MobileApp(MDApp):
                     self.root.ids.m8.text)
                 self.root.ids.vlojeno.text = str(round(vlojeno))
 
-        #        except TypeError and ValueError:
-        #            vlojeno = float(self.root.ids.m2.text) + float(self.root.ids.m3.text) \
-        #                      + float(self.root.ids.m4.text) + float(self.root.ids.m5.text) \
-        #                      + float(self.root.ids.m6.text) + float(self.root.ids.m7.text) + float(self.root.ids.m8.text)
-        #            self.root.ids.vlojeno.text = str(round(vlojeno, 1))
         except TypeError and ValueError:
             pass
         try:
@@ -676,6 +671,7 @@ class MobileApp(MDApp):
             pass
 
     def callback(self, instance):
+        global difference
         if instance.icon == 'water-check':
             try:
                 napravna = float(self.root.ids.napravna.text) / float(self.root.ids.l.text) + (
@@ -722,7 +718,7 @@ class MobileApp(MDApp):
         if instance.icon == "triangle-outline":
             try:
                 for number in self.root.teglo.text:
-                    razlika = float(self.root.ids.teglo.text) - (
+                    difference = float(self.root.ids.teglo.text) - (
                                 float(self.root.ids.m1.text) + float(self.root.ids.m2.text)
                                 + float(self.root.ids.m3.text)
                                 + float(self.root.ids.m4.text) + float(self.root.ids.m5.text)
@@ -731,7 +727,7 @@ class MobileApp(MDApp):
                                 + (float(self.root.ids.vlaga1.text) / 100 * float(self.root.ids.m3.text)
                                    + float(self.root.ids.vlaga2.text) / 100 * float(self.root.ids.m4.text)
                                    + float(self.root.ids.vlaga3.text) / 100 * float(self.root.ids.m5.text)))
-                self.root.ids.razlika.text = str(round(razlika))
+                self.root.ids.razlika.text = str(round(difference))
             except UnboundLocalError:
                 pass
             except ValueError:
