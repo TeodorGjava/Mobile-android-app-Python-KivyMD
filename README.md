@@ -15,9 +15,7 @@ calculates all given aggregates for the needed volume meter, and some additional
 like sum of all aggregates, amount of admixture and more. The app was deployed the
 app at November 2021 and since then it's used frequently. Recently released English
 version.
-## Table of Contents (Optional)
-
-If your README is very long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
