@@ -15,8 +15,15 @@ calculates all given aggregates for the needed volume meter, and some additional
 like sum of all aggregates, amount of admixture and more. The app was deployed the
 app at November 2021 and since then it's used frequently. Recently released English
 version.
+## Table of Contents (Optional)
 
-<h2>Quick preview</h2>
+If your README is very long, add a table of contents to make it easy for users to find what they need.
 
-<img src ="https://user-images.githubusercontent.com/90547780/191474572-e2703a84-9c47-4524-9909-e68428580e69.jpg" width="200" height="400"/> <img src ="https://user-images.githubusercontent.com/90547780/191473890-7e405f1b-ff60-4412-8bc6-949ca9726794.jpg" width="200" height="400"/> <img src = "https://user-images.githubusercontent.com/90547780/191475071-0a7edc89-341d-492f-8661-36fa02135fb4.jpg" width="200" height="400"/>
-<img src = "https://user-images.githubusercontent.com/90547780/191475209-57e671d4-1f0b-4665-9e00-e155354c8062.jpg" width="200" height="300"/>
+* [Installation](#installation)
+* [Usage](#usage)
+
+## Installation 
+Just download .apk file from [Repository .apk folder](https://github.com/TeodorGjava/Mobile-android-app-Python-KivyMD/tree/main/packed%20.apk%20file) and install on  mobile android operating device
+## Usage
+
+<img src ="https://user-images.githubusercontent.com/90547780/191474572-e2703a84-9c47-4524-9909-e68428580e69.jpg" width="200" height="400"/> <img src ="https://user-images.githubusercontent.com/90547780/191473890-7e405f1b-ff60-4412-8bc6-949ca9726794.jpg" width="198" height="400"/> <img src = "https://user-images.githubusercontent.com/90547780/191475071-0a7edc89-341d-492f-8661-36fa02135fb4.jpg" width="198" height="400"/> <img src = "https://user-images.githubusercontent.com/90547780/191475209-57e671d4-1f0b-4665-9e00-e155354c8062.jpg" width="198" height="400"/> <img src = "https://user-images.githubusercontent.com/90547780/191475793-51d7df5f-4bfa-4ef8-bf05-6f3c48b92276.jpg" width="198" height="400"/>
